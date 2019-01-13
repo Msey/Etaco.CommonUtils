@@ -1,0 +1,11 @@
+C:\Users\User\Downloads\ETACO.CommonUtils\bin\Debug\ETACO.CommonUtils.exe.cfg
+C:\Users\User\Downloads\ETACO.CommonUtils\bin\Debug\ETACO.CommonUtils.exe.config
+C:\Users\User\Downloads\ETACO.CommonUtils\bin\Debug\ETACO.CommonUtils.exe
+C:\Users\User\Downloads\ETACO.CommonUtils\bin\Debug\ETACO.CommonUtils.pdb
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\CommonUtils.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\ETACO.CommonUtils.LoginForm.resources
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\ETACO.CommonUtils.SplashForm.resources
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\ETACO.CommonUtils.Properties.Resources.resources
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\CommonUtils.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\ETACO.CommonUtils.exe
+C:\Users\User\Downloads\ETACO.CommonUtils\obj\x86\Debug\ETACO.CommonUtils.pdb

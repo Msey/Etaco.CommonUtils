@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C65F380-7FF3-48B2-961C-630D5B8FC817}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ETACO.CommonUtils</RootNamespace>
+    <AssemblyName>ETACO.CommonUtils</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <CscToolPath>$(MSBuildProgramFiles32)\MSBuild\14.0\Bin</CscToolPath>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\Debug\ETACO.CommonUtils.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\Release\ETACO.CommonUtils.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <NoWarn>1607</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ETACO.CommonUtils.AppContext</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppContext.cs" />
+    <Compile Include="Common\Async.cs" />
+    <Compile Include="Common\CollectionExtensions.cs" />
+    <Compile Include="Common\BytesExtensions.cs" />
+    <Compile Include="Common\ConsoleHelper.cs" />
+    <Compile Include="Common\DataTableExtensions.cs" />
+    <Compile Include="Common\DependencyResolver.cs" />
+    <Compile Include="Common\Expando.cs" />
+    <Compile Include="Common\PivotExtensions.cs" />
+    <Compile Include="DB\DbDataReaderExtensions.cs" />
+    <Compile Include="DB\DbProvider.cs" />
+    <Compile Include="DB\MSSQL\MSSQLDataAccessExtensions.cs" />
+    <Compile Include="DB\PostgreSQL\PGSQLDataAccessExtensions.cs" />
+    <Compile Include="DB\SQLite\SQLiteDataAccessExtensions.cs" />
+    <Compile Include="DB\SQLite\SQLiteCommand.cs" />
+    <Compile Include="DB\SQLite\SQLiteDataAccess.cs" />
+    <Compile Include="DB\OleDB\OleDBCommand.cs" />
+    <Compile Include="DB\OleDB\OleDBDataAccess.cs" />
+    <Compile Include="DB\DbCommandExtensions.cs" />
+    <Compile Include="DB\MySQL\MySQLCommand.cs" />
+    <Compile Include="DB\MySQL\MySQLDataAccess.cs" />
+    <Compile Include="DB\PostgreSQL\PGSQLCommand.cs" />
+    <Compile Include="DB\PostgreSQL\PGSQLDataAccess.cs" />
+    <Compile Include="GUI\SmoothLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Math\FormulaNode.cs" />
+    <Compile Include="DB\DataBulkCommand.cs" />
+    <Compile Include="DB\DataCommand.cs" />
+    <Compile Include="DB\DataAccess.cs" />
+    <Compile Include="DB\DataConnection.cs" />
+    <Compile Include="DB\MSSQL\MSSQLDataAccess.cs" />
+    <Compile Include="DB\MSSQL\MSSQLCommand.cs" />
+    <Compile Include="MetatextParser\MetatextParser.cs" />
+    <Compile Include="Office\AbstractExchangeManager.cs" />
+    <Compile Include="Office\ExOLEDBManager.cs" />
+    <Compile Include="Office\WebDAVManager.cs" />
+    <Compile Include="Plugin\CrossDomainLoader.cs" />
+    <Compile Include="Math\NumberInWords.cs" />
+    <Compile Include="Common\DateTimeExtensions.cs" />
+    <Compile Include="Common\DisposableDemo.cs" />
+    <Compile Include="Common\EnumExtensions.cs" />
+    <Compile Include="Common\Maybe.cs" />
+    <Compile Include="Common\StringCrypter.cs" />
+    <Compile Include="DB\ORA\OraCommand.cs" />
+    <Compile Include="DB\ORA\TNSNamesReader .cs" />
+    <Compile Include="GUI\GlobalHotKey.cs" />
+    <Compile Include="GUI\GUIUtils.cs" />
+    <Compile Include="GUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SingleInstanceApplication.cs" />
+    <Compile Include="GUI\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SplashForm.designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\FileInfoExtensions.cs" />
+    <Compile Include="Log\CommonConsoleLogger.cs" />
+    <Compile Include="MetatextParser\MacrosInfo.cs" />
+    <Compile Include="MetatextParser\MetatextParseResult.cs" />
+    <Compile Include="Office\ExcelManager.cs" />
+    <Compile Include="Plugin\PluginInfo.cs" />
+    <Compile Include="Script\JSCodeProvider.cs" />
+    <Compile Include="Script\CSCodeProvider.cs" />
+    <Compile Include="Script\CSEval.cs" />
+    <Compile Include="DB\ORA\OraDataAccessExtensions.cs" />
+    <Compile Include="IO\StreamExtensions.cs" />
+    <Compile Include="Log\CommonMessageBoxLogger.cs" />
+    <Compile Include="Script\CodeProvider.cs" />
+    <Compile Include="Common\CommonExtensions.cs" />
+    <Compile Include="Common\StringExtensions.cs" />
+    <Compile Include="Script\JSCodeProviderAttribute.cs" />
+    <Compile Include="Script\JSEval.cs" />
+    <Compile Include="Common\Singleton.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Log\CommonEventLogLogger.cs" />
+    <Compile Include="Log\CommonFileLogger.cs" />
+    <Compile Include="Log\Log.cs" />
+    <Compile Include="Log\LogMessage.cs" />
+    <Compile Include="DB\ORA\OraDataAccess.cs" />
+    <Compile Include="Plugin\AppDomainPluginManager.cs" />
+    <Compile Include="Plugin\LogMessageCrossDomainRepeater.cs" />
+    <Compile Include="Plugin\PluginAttribute.cs" />
+    <Compile Include="Plugin\PluginManager.cs" />
+    <Compile Include="Process\ProcessExtensions.cs" />
+    <Compile Include="Process\ProcessUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Script\JS.cs" />
+    <Compile Include="Script\JSEvalCalcEngine.cs" />
+    <Compile Include="Script\JSEvalEngine.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Cabinet.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\ContentMeta.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Document.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Feed.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Folder.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\FolderLink.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Group.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\HomeDoc.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Linkable.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\PersistentObject.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\Repository.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\TreeItem.cs" />
+    <Compile Include="Telecom\Json\Emc.Documentum.Rest\User.cs" />
+    <Compile Include="Telecom\Json\GenericOptions.cs" />
+    <Compile Include="Telecom\Json\JsonClient.cs" />
+    <Compile Include="Telecom\Json\JsonSerializers.cs" />
+    <Compile Include="Telecom\Json\LinkUtil.cs" />
+    <Compile Include="Telecom\Mail\EWSTelecom.cs" />
+    <Compile Include="Telecom\FTPWebClient.cs" />
+    <Compile Include="Telecom\FTPSClient.cs" />
+    <Compile Include="Telecom\Mail\Pop3Client.cs" />
+    <Compile Include="Telecom\TcpClientExtensions.cs" />
+    <Compile Include="Telecom\TelecomClient.cs" />
+    <Compile Include="Telecom\SocketClient.cs" />
+    <Compile Include="Telecom\MimeReader.cs" />
+    <Compile Include="Telecom\Mail\MailFolder.cs" />
+    <Compile Include="Telecom\Mail\MailResponse.cs" />
+    <Compile Include="Telecom\Mail\ImapClient.cs" />
+    <Compile Include="Telecom\Mail\MailMimeMessage.cs" />
+    <Compile Include="Common\WindowsUserImpersonation.cs" />
+    <Compile Include="WinService\GCWorker.cs" />
+    <Compile Include="WinService\IServiceRegistrator.cs" />
+    <Compile Include="WinService\ProcessWorker.cs" />
+    <Compile Include="WinService\ServicesContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinService\TaskWorker.cs" />
+    <Compile Include="WinService\ServiceWorker.cs" />
+    <Compile Include="WinService\Telecom\EWSTelecom.cs" />
+    <Compile Include="WinService\Telecom\DBTelecom.cs" />
+    <Compile Include="WinService\Telecom\FileTelecom.cs" />
+    <Compile Include="WinService\Telecom\FTPTelecom.cs" />
+    <Compile Include="WinService\Telecom\HTTPGetTelecom.cs" />
+    <Compile Include="WinService\Telecom\POP3Telecom.cs" />
+    <Compile Include="WinService\Telecom\SMTPTelecom.cs" />
+    <Compile Include="WinService\Telecom\TelecomTask.cs" />
+    <Compile Include="WinService\WinServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XML\XMLUtils.cs" />
+    <Compile Include="XML\XPathNavigatorExtensions.cs" />
+    <Compile Include="XML\XslTransformer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ETACO.WinServiceManager.EXE%28svp%29.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ETACO.WinServiceManager.EXE.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\bg.bmp" />
+    <None Include="ETACO.CommonUtils.exe.cfg">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rundll4net.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fix bug MSVS.txt" />
+    <Content Include="js code example.txt" />
+    <Content Include="Resources\app.ico" />
+    <Content Include="Resources\ETA_Logo.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>mono.exe</StartProgram>
+    <StartURL>"${TargetPath}"</StartURL>
+    <StartArguments>mono.exe</StartArguments>
+    <StartWorkingDirectory>${TargetDir}</StartWorkingDirectory>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

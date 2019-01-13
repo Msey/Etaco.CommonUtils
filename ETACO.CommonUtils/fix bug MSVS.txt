@@ -1,0 +1,15 @@
+﻿MSBuild group policy restriction
+remove all childrem from HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers
+---
+fix SharpDeveloper and Xamarin Studio(.project)
+
+Т.к. на текущий момент 2016.03.01 SharpDeveloper и Xamarin Studio не поддерживает C# 6 нужно добавить в файл проекта
+следующую секцию
+
+в редакторе он всё ещё будет подсвечивать ошибку для фичей C# 6, но проект будет собираться 
+
+<PropertyGroup Condition="'$(Platform)' != 'Unix'">
+  <CscToolPath>$(MSBuildProgramFiles32)\MSBuild\14.0\Bin</CscToolPath>
+</PropertyGroup>
+-----
+
